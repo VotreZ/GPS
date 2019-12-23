@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.example.gps"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:5:5-80
+12-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:6:5-78
+13-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:6:22-76
+14
+15    <dist:module dist:instant="true" />
+15-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:8:5-40
+15-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:8:18-37
+16
+17    <application
+17-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:10:5-24:19
+18        android:allowBackup="true"
+18-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:11:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\VotreZ\.gradle\caches\transforms-2\files-2.1\419c1e4c69cc84d0a9af6aedb8b39477\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:12:9-43
+22        android:label="@string/app_name"
+22-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:13:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:14:9-54
+24        android:supportsRtl="true"
+24-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:15:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:16:9-40
+27        <activity android:name="com.example.gps.MainActivity" >
+27-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:17:9-23:20
+27-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:17:19-47
+28            <intent-filter>
+28-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:18:13-22:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:19:17-69
+29-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:19:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:21:17-77
+31-->D:\PROJEK ANDROID\GPS\app\src\main\AndroidManifest.xml:21:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\VotreZ\.gradle\caches\transforms-2\files-2.1\69f96a19f5b64487840d63c90ad74fcb\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+35            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+35-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\VotreZ\.gradle\caches\transforms-2\files-2.1\69f96a19f5b64487840d63c90ad74fcb\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+36            android:exported="false"
+36-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\VotreZ\.gradle\caches\transforms-2\files-2.1\69f96a19f5b64487840d63c90ad74fcb\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+37            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+37-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\VotreZ\.gradle\caches\transforms-2\files-2.1\69f96a19f5b64487840d63c90ad74fcb\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+38
+39        <meta-data
+39-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\VotreZ\.gradle\caches\transforms-2\files-2.1\e8b3931a535dcd3daaa12952f84cf5d8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+40            android:name="com.google.android.gms.version"
+40-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\VotreZ\.gradle\caches\transforms-2\files-2.1\e8b3931a535dcd3daaa12952f84cf5d8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+41            android:value="@integer/google_play_services_version" />
+41-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\VotreZ\.gradle\caches\transforms-2\files-2.1\e8b3931a535dcd3daaa12952f84cf5d8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+42    </application>
+43
+44</manifest>
